@@ -1,6 +1,6 @@
 const expect = require('chai').expect;
 
-let field = {
+let land = {
     cols: 5,
     rows: 5
 }
@@ -12,29 +12,53 @@ let probe = {
     direction: 'E'
 }
 
+// Probe accumulator (mutable)
+let probeAcc = {
+    x: 3,
+    y: 3,
+    direction: 'E'
+}
+
 describe('When probe', () => {
 
     it('Turn left, it should point to N', () => {
-        return;
+        
+        // turn left
+        expect(direction).to.be.equal('N')
     });
 
     it('Move, it should be x=3, y=4', () => {
-        return;
+        
+        // move
+        expect(x).to.be.equal(3)
+        expect(y).to.be.equal(4)
     });
 
     it('Turn right 2 times, it should point to S', () => {
-        return;
+        
+        // turn right
+        // turn right
+        expect(direction).to.be.equal('S')
     });
 
     it('Move 3 times, it should be x=3, y=1', () => {
-        return; 
+        
+        // move
+        // move
+        // move
+        expect(x).to.be.equal(3)
+        expect(y).to.be.equal(1)
     });
 
     it('Turn right (with lowercase direction), it should point to W', () => {
-        return;
+        
+        // turn right
+        expect(direction).to.be.equal('W')  
     });
 });
 
 it ('Should not mutate the original probe JSON', () => {
-    return;
+
+    // turn left
+    expect(probe).not.to.be.deep.equal(mutatedJson);
 })
