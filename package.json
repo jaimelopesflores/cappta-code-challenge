@@ -4,7 +4,7 @@
   "description": "Cappta Code Challenge - Martian Probe",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,12 @@
   "bugs": {
     "url": "https://github.com/jaimelopesflores/cappta-code-challenge/issues"
   },
-  "homepage": "https://github.com/jaimelopesflores/cappta-code-challenge#readme"
+  "homepage": "https://github.com/jaimelopesflores/cappta-code-challenge#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1"
+  }
 }
