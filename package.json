@@ -1,0 +1,26 @@
+{
+  "name": "cappta-code-challenge",
+  "version": "1.0.0",
+  "description": "Cappta Code Challenge - Martian Probe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jaimelopesflores/cappta-code-challenge.git"
+  },
+  "keywords": [
+    "probe",
+    "martian",
+    "mars",
+    "code",
+    "challenge"
+  ],
+  "author": "Jaime Flores",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaimelopesflores/cappta-code-challenge/issues"
+  },
+  "homepage": "https://github.com/jaimelopesflores/cappta-code-challenge#readme"
+}
