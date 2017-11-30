@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const { clone } = require('../functions')
+const { clone } = require('../functions');
 const { move, turn } = require('../functions/probe');
 
 let land = {

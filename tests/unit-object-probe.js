@@ -1,5 +1,5 @@
 const expect = require('chai').expect;
-const Probe = require('../class/probe')
+const Probe = require('../class/probe');
 
 // Probe Object x = 1, y = 2, direction = N , land = { cols: 5, rows: 5 }
 let probe = new Probe(1, 2, 'N', { cols: 5, rows: 5 });

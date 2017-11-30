@@ -41,5 +41,9 @@ module.exports = {
         }
 
         return newProbe
+    },
+
+    toString(probe) {
+        return `${probe.x} ${probe.y} ${probe.direction}`
     }
 }
