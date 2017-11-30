@@ -4,7 +4,7 @@ const Probe = require('../class/probe')
 // Probe Object x = 1, y = 2, direction = N , land = { cols: 5, rows: 5 }
 let probe = new Probe(1, 2, 'N', { cols: 5, rows: 5 });
 
-describe('When probe', () => {
+describe('When probe (object)', () => {
 
     it('Turn left, it should point to W', () => {
 

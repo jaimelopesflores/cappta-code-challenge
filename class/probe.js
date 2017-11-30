@@ -8,7 +8,7 @@ module.exports = class Probe {
     }
 
     turn(to) {
-        to = to.toUpperCase()
+        to = to.toUpperCase();
         switch(this.direction.toUpperCase()) {
             case 'N': this.direction = (to === 'L' ? 'W' : (to === 'R' ? 'E' : this.direction)); break;
             case 'W': this.direction = (to === 'L' ? 'S' : (to === 'R' ? 'N' : this.direction)); break;
